@@ -11,7 +11,8 @@
       "@container": "@language"
     },
     "url": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "rel": {
       "@type": "xsd:string"
@@ -23,22 +24,28 @@
       "@type": "@id"
     },
     "actor": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "object": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "target": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "result": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "instrument": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "participant": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "priority": {
       "@type": "xsd:float"
@@ -47,46 +54,58 @@
       "@type": "xsd:string"
     },
     "to": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "bto": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "cc": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "bcc": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "alias": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "author": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "content": {
       "@container": "@language"
     },
     "duplicates": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "icon": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "image": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "location": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "published": {
       "@type": "xsd:dateTime"
     },
     "generator": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "provider": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "summary": {
       "@container": "@language"
@@ -104,7 +123,8 @@
       "@type": "xsd:float"
     },
     "tags": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "title": {
       "@container": "@language"    
@@ -119,13 +139,15 @@
       "@type": "xsd:nonNegativeInteger"
     },
     "inReplyTo": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "actions": {
       "@container": "@index"
     },
     "scope": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "totalItems": {
       "@type": "xsd:nonNegativeInteger"
@@ -146,25 +168,32 @@
       "@type": "xsd:dateTime"
     },
     "first": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "last": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "prev": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "previous": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "next": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "current": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "self": {
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "replies": {
       "@container": "@index"
