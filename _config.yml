@@ -1,1 +1,1 @@
-include: ['.htaccess']
+include: '.htaccess'
