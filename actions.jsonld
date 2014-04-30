@@ -1,0 +1,86 @@
+{ "@context": {
+    "as": "http://activitystrea.ms/2.0/",
+    "actions": "as:actions/",
+    "confirm": {
+      "@id": "actions:confirm",
+      "@type": "xsd:boolean"
+    },
+    "context": {
+      "@id": "actions:context",
+      "@container": "@index"
+    },
+    "auth": {
+      "@id": "actions:auth",
+      "@container": "@index"
+    },
+    "expects": {
+      "@id": "actions:expects",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "returns": {
+      "@id": "actions:returns",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "requires": {
+      "@id": "actions:requires",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "prefers": {
+      "@id": "actions:prefers",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "method": "actions:method",
+    "target": "actions:target",
+    "style": {
+      "@id": "actions:style",
+      "@container": "@index"
+    },
+    "preview": {
+      "@id": "actions:preview",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "parameters": {
+      "@id": "actions:parameters",
+      "@container": "@index"
+    },
+    "type": {
+      "@id": "actions:type",
+      "@type": "@id"
+    },
+    "schema": {
+      "@id": "actions:schema",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "template": "actions:template",
+    "required": {
+      "@id": "actions:required",
+      "@type": "xsd:boolean"
+    },
+    "repeated": {
+      "@id": "actions:repeated",
+      "@type": "xsd:boolean"
+    },
+    "value": "actions:value",
+    "default": "actions:default",
+    "enum": {
+      "@id": "actions:enum",
+      "@container": "@set"
+    },
+    "maximum": "actions:maximum",
+    "minimum": "actions:minimum",
+    "step": "actions:step",
+    "format": "actions:format",
+    "pattern": "actions:pattern",
+    "placeholder": {
+      "@id": "actions:placeholder",
+      "@container": "@language"
+    }
+  }
+}
