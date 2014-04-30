@@ -3,8 +3,7 @@
     "id": "@id",
     "language": "@language",
     "objectType": {
-      "@id": "as:objectType",
-      "@type": "@id"
+      "@id": "as:objectType"
     },
     "displayName": {
       "@id": "as:displayName",
@@ -18,8 +17,7 @@
     "rel": "as:rel",
     "mediaType": "as:mediaType",
     "verb": {
-      "@id": "as:verb",
-      "@type": "@id"
+      "@id": "as:verb"
     },
     "actor": {
       "@id": "as:actor",
