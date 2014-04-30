@@ -1,0 +1,202 @@
+{ "@context": {
+    "@vocab" : "http://activitystrea.ms/2.0/",
+    "@base": "http://activitystrea.ms/2.0/schema/",
+    "as" : "http://activitystrea.ms/2.0/",
+    "id": "@id",
+    "objectType": {
+      "@type": "@id"
+    },
+    "language": "@language",
+    "displayName": {
+      "@container": "@language"
+    },
+    "url": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "rel": {
+      "@type": "xsd:string"
+    },
+    "mediaType": {
+      "@type": "xsd:string"
+    },
+    "verb": {
+      "@type": "@id"
+    },
+    "actor": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "object": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "target": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "result": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "instrument": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "participant": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "priority": {
+      "@type": "xsd:float"
+    },
+    "status": {
+      "@type": "xsd:string"
+    },
+    "to": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "bto": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "cc": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "bcc": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "alias": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "author": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "content": {
+      "@container": "@language"
+    },
+    "duplicates": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "icon": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "image": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "location": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "published": {
+      "@type": "xsd:dateTime"
+    },
+    "generator": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "provider": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "summary": {
+      "@container": "@language"
+    },
+    "updated": {
+      "@type": "xsd:dateTime"
+    },
+    "startTime": {
+      "@type": "xsd:dateTime"
+    },
+    "endTime": {
+      "@type": "xsd:dateTime"
+    },
+    "rating": {
+      "@type": "xsd:float"
+    },
+    "tags": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "title": {
+      "@container": "@language"    
+    },
+    "duration": {
+      "@id": "as:duration"
+    },
+    "height": {
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "width": {
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "inReplyTo": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "actions": {
+      "@container": "@index"
+    },
+    "scope": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "totalItems": {
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "itemsPerPage": {
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "startIndex": {
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "items": {
+      "@container": "@list"
+    },
+    "itemsAfter": {
+      "@type": "xsd:dateTime"
+    },
+    "itemsBefore": {
+      "@type": "xsd:dateTime"
+    },
+    "first": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "last": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "prev": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "previous": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "next": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "current": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "self": {
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "replies": {
+      "@container": "@index"
+    }
+  }
+}
