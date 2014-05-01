@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "as": "http://activitystrea.ms/2.0/",
+    "actionStatus": {
+      "@id": "as:status",
+      "@type": "@vocab"
+    },
+    "agent": {
+      "@id": "as:actor",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "instrument": {
+      "@id": "as:instrument",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "location": {
+      "@id": "as:location",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "object": {
+      "@id": "as:object",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "participant": {
+      "@id": "as:participant",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "result": {
+      "@id": "as:result",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "image": {
+      "@id": "as:image",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sameAs": {
+      "@id": "as:duplicates",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "as:url",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "name": {
+      "@id": "as:displayName",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "as:summary",
+      "@container": "@language"
+    },
+    "endTime": "as:endTime",
+    "startTime": "as:startTime",
+    "CompletedActionStatus": {
+      "@id": "as:CompletedStatus"
+    },
+    "ActiveActionStatus": {
+      "@id": "as:ActiveStatus"
+    },
+    "PotentialActionStatus": {
+      "@id": "as:TentativeStatus"
+    }
+  }
+}

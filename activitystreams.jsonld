@@ -53,7 +53,25 @@
       "@id": "as:priority",
       "@type": "xsd:float"
     },
-    "status": "as:status",
+    "status": {
+      "@id": "as:status",
+      "@type": "@vocab"
+    },
+    "completed": {
+      "@id": "as:CompletedStatus"
+    },
+    "active": {
+      "@id": "as:ActiveStatus"
+    },
+    "canceled": {
+      "@id": "as:CanceledStatus"
+    },
+    "pending": {
+      "@id": "as:PendingStatus"
+    },
+    "tentative": {
+      "@id": "as:TentativeStatus"
+    },
     "to": {
       "@id": "as:to",
       "@type": "@id",
