@@ -35,7 +35,16 @@
     },
 
     "method": "actions:method",
-    "target": "actions:target",
+    "target": {
+      "@id": "actions:target",
+      "@type": "@vocab"
+    },
+    "DEFAULT": "as:DefaultTarget",
+    "NONE": "as:NoTarget",
+    "NEW": "as:NewTarget",
+    "CURRENT": "as:CurrentTarget",
+    "INLINE": "as:InlineTarget",
+
     "style": {
       "@id": "actions:style",
       "@container": "@index"
@@ -59,6 +68,7 @@
       "@container": "@set"
     },
     "template": "actions:template",
+
     "required": {
       "@id": "actions:required",
       "@type": "xsd:boolean"
@@ -67,20 +77,114 @@
       "@id": "actions:repeated",
       "@type": "xsd:boolean"
     },
-    "value": "actions:value",
-    "default": "actions:default",
-    "enum": {
-      "@id": "actions:enum",
+    "value": {
+      "@id": "actions:value",
+      "@type": "xsd:anyType"
+    },
+    "default": {
+      "@id": "actions:default",
+      "@type": "xsd:anyType"
+    },
+    "type": {
+      "@id": "@type",
+      "@type": "@vocab"
+    },
+    "enumeration": {
+      "@id": "xsd:enumeration",
+      "@type": "xsd:anyType",
       "@container": "@set"
     },
-    "maximum": "actions:maximum",
-    "minimum": "actions:minimum",
-    "step": "actions:step",
-    "format": "actions:format",
-    "pattern": "actions:pattern",
+    "minLength": {
+      "@id": "xsd:minLength",
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "maxLength": {
+      "@id": "xsd:maxLength",
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "maxInclusive": {
+      "@id": "xsd:maxInclusive",
+      "@type": "xsd:anyType"
+    },
+    "maxExclusive": {
+      "@id": "xsd:maxExclusive",
+      "@type": "xsd:anyType"
+    },
+    "minInclusive": {
+      "@id": "xsd:minInclusive",
+      "@type": "xsd:anyType"
+    },
+    "minExclusive": { 
+      "@id": "xsd:minExclusive",
+      "@type": "xsd:anyType"
+    },
+    "step": {
+      "@id": "actions:step",
+      "@type": "xsd:anyType"
+    },
+    "totalDigits": {
+      "@id": "xsd:totalDigits",
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "fractionDigits": {
+      "@id": "xsd:fractionDigits",
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "pattern": {
+      "@id": "xsd:pattern",
+      "@type": "xsd:string",
+      "@container": "@set"
+    },
     "placeholder": {
       "@id": "actions:placeholder",
       "@container": "@language"
-    }
+    },
+
+    "anyType": "xsd:anyType",
+    "anySimpleType": "xsd:anySimpleType",
+    "time": "xsd:time",
+    "date": "xsd:date",
+    "dateTime": xsd:dateTime",
+    "gYearMonth": "xsd:gYearMonth",
+    "gYear": "xsd:gYear",
+    "gMonthDay": "xsd:gMonthDay",
+    "gMonth": "xsd:gMonth",
+    "gDay": "xsd:gDay",
+    "boolean": "xsd:boolean",
+    "base64Binary": "xsd:base64Binary"
+    "hexBinary": "xsd:hexBinary",
+    "float": "xsd:float",
+    "double": "xsd:double",
+    "anyURI": "xsd:anyURI"
+    "QName": "xsd:QName",
+    "NOTATION": "xsd:NOTATION",
+    "decimal": "xsd:decimal",
+    "integer": "xsd:integer",
+    "long": "xsd:long",
+    "nonPositiveInteger": "xsd:nonPositiveInteger",
+    "negativeInteger": "xsd:negativeInteger",
+    "int": "xsd:int",
+    "short": "xsd:short",
+    "byte": "xsd:byte",
+    "nonNegativeInteger": "xsd:nonNegativeInteger",
+    "positiveInteger": "xsd:positiveInteger",
+    "unsignedInt": "xsd:unsignedInt",
+    "unsignedLong": "xsd:unsignedLong",
+    "unsignedShort": "xsd:unsignedShort",
+    "unsignedByte": "xsd:unsignedByte",
+    "language": "xsd:language",
+    "string": "xsd:string",
+    "normalizedString": "xsd:normalizedString",
+    "token": "xsd:token",
+    "Name": "xsd:Name",
+    "NMTOKEN": "xsd:NMTOKEN",
+    "NCName": "xsd:NCName",
+    "NMTOKENS": "xsd:NMTOKENS",
+    "ID": "xsd:ID",
+    "IDREF": "xsd:IDREF",
+    "ENTITY": "xsd:ENTITY",
+    "IDREFS": "xsd:IDREFS",
+    "ENTITIES": "xsd:ENTITIES"
+
   }
 }
