@@ -56,7 +56,8 @@
     },
     "parameters": {
       "@id": "actions:parameters",
-      "@container": "@index"
+      "@container": "@index",
+      "@type": "@vocab"
     },
     "type": {
       "@id": "actions:type",
@@ -144,18 +145,18 @@
     "anySimpleType": "xsd:anySimpleType",
     "time": "xsd:time",
     "date": "xsd:date",
-    "dateTime": xsd:dateTime",
+    "dateTime": "xsd:dateTime",
     "gYearMonth": "xsd:gYearMonth",
     "gYear": "xsd:gYear",
     "gMonthDay": "xsd:gMonthDay",
     "gMonth": "xsd:gMonth",
     "gDay": "xsd:gDay",
     "boolean": "xsd:boolean",
-    "base64Binary": "xsd:base64Binary"
+    "base64Binary": "xsd:base64Binary",
     "hexBinary": "xsd:hexBinary",
     "float": "xsd:float",
     "double": "xsd:double",
-    "anyURI": "xsd:anyURI"
+    "anyURI": "xsd:anyURI",
     "QName": "xsd:QName",
     "NOTATION": "xsd:NOTATION",
     "decimal": "xsd:decimal",
