@@ -5,7 +5,7 @@
     "org": "http://www.w3.org/ns/org#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "vcard": "http://www.w3.org/2006/vcard/ns#",
-    "prov": "http://www.w3.org/ns/prov#",
+    "prov": "http://www.w3.org/ns/prov#"
     },{
     "as" : "http://activitystrea.ms/2.0/",
     "id": "@id",
