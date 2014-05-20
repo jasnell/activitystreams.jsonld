@@ -1,6 +1,15 @@
 { "@context": {
     "as": "http://activitystrea.ms/2.0/",
     "actions": "as:actions/",
+    "IntentActionHandler": "actions:IntentActionHandler",
+    "ViewActionHandler": "actions:ViewActionHandler",
+    "HttpActionHandler": "actions:HttpActionHandler",
+    "EmbedActionHandler": "actions:EmbedActionHandler",
+    "UrlTemplate": "actions:UrlTemplate",
+    "HtmlForm": "actions:HtmlForm",
+    "TypedPayload": "actions:TypedPayload",
+    "application": "actions:Application",
+    "service": "actions:service",
     "confirm": {
       "@id": "actions:confirm",
       "@type": "xsd:boolean"
@@ -35,16 +44,7 @@
     },
 
     "method": "actions:method",
-    "target": {
-      "@id": "actions:target",
-      "@type": "@vocab"
-    },
-    "DEFAULT": "as:DefaultTarget",
-    "NONE": "as:NoTarget",
-    "NEW": "as:NewTarget",
-    "CURRENT": "as:CurrentTarget",
-    "INLINE": "as:InlineTarget",
-
+    "target": "actions:target",
     "style": {
       "@id": "actions:style",
       "@container": "@index"
@@ -69,7 +69,7 @@
       "@container": "@set"
     },
     "template": "actions:template",
-
+    "sandbox": "actions:sandbox",
     "required": {
       "@id": "actions:required",
       "@type": "xsd:boolean"
