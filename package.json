@@ -1,9 +1,10 @@
 {
   "name": "asjsonld",
   "description": "asjsonld",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "3.x"
+    "express": "3.x",
+    "activitystreams-context": "0.3.2"
   }
 }
