@@ -5,10 +5,9 @@ var app = express();
 app.get('/', function(req, res) {
   res.set({
   	'Access-Control-Allow-Origin': '*',
-  	'Content-Location': 'http://activitystrea.ms/2.0/',
+  	'Content-Location': 'http://www.w3.org/ns/activitystreams',
     'Content-Type': 'application/ld+json'
   });
   res.end(JSON.stringify(context));
 });
-
 var server = app.listen(port);
