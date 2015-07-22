@@ -5,6 +5,6 @@
   "private": true,
   "dependencies": {
     "express": "3.x",
-    "activitystreams-context": "^0.6.0"
+    "activitystreams-context": "^0.6.1"
   }
 }
