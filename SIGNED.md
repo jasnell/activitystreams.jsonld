@@ -3,13 +3,13 @@
 -----BEGIN PGP SIGNATURE-----
 Comment: GPGTools - https://gpgtools.org
 
-iQEcBAABCgAGBQJVW3JkAAoJEHNBsVwHCHespq8H/2GHw6eXcelRU3mhlFQ9ZC5R
-/nPll2c4r5Gqvr9B649Oh1E0ogiP4pzMC8FY933gQvHAOubMSifw1Q1QVAoDCs2E
-yvTyr7zuzrQusEF8F9cFfHB5ZaYKRugmgWlAdwVXwonQpH+Pi6jaEeqww6ObmoEo
-g7HFbRTQ9fSrEdY8z9Fq7+ub8t8llhpZeia+6Tm+ULmhKVfhi4/NOCq/ACiCrqGw
-MByqYKz85nk6f4WuJU8ca80fSowZ4kmK8tY246Ox9hgQvMGbC+qt6Skc/AGx1l81
-EFwcOQAdt+DLMNbmjT7ix6ylbRrZ81YjMHCRqBfqEl8GFIC3B0URajP34lhf3/4=
-=bAZ6
+iQEcBAABCgAGBQJWOS5WAAoJEHNBsVwHCHesiggIAIBKpa2rVX9N7Uovb+p6LwU8
+44cPxWmN6h+0KDosLDPEqDGuPJRlzKhVyarlr/T8QVUy1Z6tpn0Tp4Pz+Of3y6pf
+xgeISMl9hPZImetDGWaqvGDHITjsIAaR9v/3qD2wYKz+xNmfgn14o05i5tUiFcHj
+5PruuVNF3cV/QD1o8YgfaPc751nDIZbo2WJuimJwLpmBMPzX5I13bnr1SSGOgTVC
+wzOol2Jxuo7OJyxeo/Ej1P5Sg8ErSwryzrN0lsV47/ebnRUlfFXS3y0fdbixXpSa
+zOZXakzSledb3xqrRFbcul4S11l0JR/BI2R+cZ3kETIo+UTD2tR1Oh0WJlEIn2Q=
+=M/A8
 -----END PGP SIGNATURE-----
 
 ```
@@ -21,17 +21,15 @@ EFwcOQAdt+DLMNbmjT7ix6ylbRrZ81YjMHCRqBfqEl8GFIC3B0URajP34lhf3/4=
 #### Expect
 
 ```
-size   exec  file                      contents                                                        
-             ./                                                                                        
-13             .cfignore               16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
-13             .gitignore              16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
-14353          activitystreams.jsonld  913a68ef8fad032cbbcf2e2dedd36ffee3c114ec603d26095af24e554b95945d
-413            app.js                  bd7b8c69802ad85ef9b5942342550ce5b7708983efddea004d8ed5bf71deca1a
-11381          LICENSE                 2bcf83b42c65720625611f1fb2922bc9e3face6a22117331a13c9ed9f3af2903
-112            manifest.yml            6f1e342ccf0987aa834f3e5d0ad80e772863a9cc98a89e3a079bec0846525e60
-181            package.json            c0efe7cc134424d96d3970069c76345919ed77baf55e817e973bcfff984cf916
-28             project.json            81e4b3b0f97481deedce7de5963d15fa1e8f69fb783741bd27e783553258cd41
-4732           README.md               65295f8bd74f7e287a330aabc8ef6cf0cd2f268051232cbf5ffeb56e8cffe787
+size   exec  file            contents                                                        
+             ./                                                                              
+13             .cfignore     16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+13             .gitignore    16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+509            app.js        3196741afe1723b94f76da1f88c8148dd73b242eca38cecf0b9c2d51a8296295
+11381          LICENSE       2bcf83b42c65720625611f1fb2922bc9e3face6a22117331a13c9ed9f3af2903
+89             manifest.yml  41b1d35a7aaac394574e404a77cbcd27b94416157d7620b03c574c48f0a3d6d7
+280            package.json  af403b0b4cf8c1f738277fc20d68dfe2bcdaa4de9bdae814546aa5f88e7fd4af
+90             README.md     b731dd412f2da1f29d982d4ab757cd9764d22f455e15075dfb0a377b8030ea3d
 ```
 
 #### Ignore

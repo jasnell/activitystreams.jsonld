@@ -7,7 +7,7 @@
     "start": "node app"
   },
   "dependencies": {
-    "activitystreams-context": "^0.7.0",
+    "activitystreams-context": "^0.8.0",
     "cache-control": "^1.0.3",
     "cors": "^2.7.1",
     "express": "^4.x"
